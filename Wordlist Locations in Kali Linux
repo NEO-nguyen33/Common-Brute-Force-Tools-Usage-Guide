@@ -1,0 +1,15 @@
+/usr/share/wordlists/rockyou.txt.gz
+Unzip it:
+gunzip rockyou.txt.gz
+🧠 Pro Tips
+Always scan first (nmap, enum4linux, smbclient, etc.)
+
+Check for default creds in https://github.com/ihebski/DefaultCreds-cheat-sheet
+
+Mix brute-force with social engineering (SET, phishing)
+
+🛑 Legal Note
+Brute-forcing accounts or services without authorization is illegal.
+Always use inside labs, CTFs, or authorized pentest engagements.
+
+
