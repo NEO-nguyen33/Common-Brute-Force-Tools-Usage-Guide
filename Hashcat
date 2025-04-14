@@ -1,0 +1,10 @@
+Crack MD5 hash (GPU):
+hashcat -m 0 -a 0 hash.txt /usr/share/wordlists/rockyou.txt
+-m 0: MD5
+
+-a 0: Dictionary attack
+
+hash.txt: File with hash to crack
+
+For other hash types:
+hashcat --example-hashes
