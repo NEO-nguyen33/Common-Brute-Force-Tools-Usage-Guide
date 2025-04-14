@@ -1,0 +1,6 @@
+ Cracking Unix password hash:
+unshadow /etc/passwd /etc/shadow > myhashes.txt
+john myhashes.txt
+Use --wordlist=rockyou.txt for custom list
+
+Use --format= to specify hash types (e.g., raw-md5, sha512crypt, etc.)
